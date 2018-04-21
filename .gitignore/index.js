@@ -43,7 +43,7 @@ bot.on('message', message => {
             message.author.createDM().then(channel => {
                 channel.send('WORLD!');
             }).catch(console.error);
-        bot.channels.get('434708800054886400').send("Commande §hello utilisée par : " + message.author.username);
+        bot.channels.get('434708800054886400').send("Commande f/hello utilisée par : " + message.author.username);
         }
       
         else if(spliteMessage[0] === "f/help") {
@@ -51,7 +51,7 @@ bot.on('message', message => {
             message.author.createDM().then(channel => {
                 channel.send('**⇩ Liste des commandes ⇩: \n \n __§help :__ \n Pour afficher la liste les commandes \n \n __§info :__ \n Pour afficher les informations du Discord \n \n __§ping :__ \n pour afficher la latence du bot \n \n __§socialmedia | §sm :__ \n Pour afficher les réseaux sociaux de PastelWorld \n \n __§avatar :__ \n Pour voir un avatar en mode GRAND FORMAT \n \n __§créateur :__ \n Pour afficher le site du créateur** \n \n _© NeYziX | Tous droits réservés_');
             }).catch(console.error);
-        bot.channels.get('434708800054886400').send("Commande §help utilisée par : " + message.author.username);
+        bot.channels.get('434708800054886400').send("Commande f/help utilisée par : " + message.author.username);
         }             
     }    
 });
